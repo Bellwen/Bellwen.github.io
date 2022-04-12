@@ -112,11 +112,11 @@ background-color: transparent!important;
 
   /* 鼠标样式 */
 body {
-  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/default.cur),
+  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/Project2.cur),
     default;
 }
 a,
 img {
-  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/pointer.cur),
+  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/3.ani),
     default;
 }
