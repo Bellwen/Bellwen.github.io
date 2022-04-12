@@ -107,3 +107,16 @@ background-color: transparent!important;
     color: #fff;
     background-color: #49b1f5;
   }
+
+
+
+  /* 鼠标样式 */
+body {
+  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/default.cur),
+    default;
+}
+a,
+img {
+  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/pointer.cur),
+    default;
+}
