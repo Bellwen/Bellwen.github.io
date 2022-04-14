@@ -1,4 +1,4 @@
-#footer-wrap{
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>#footer-wrap{
     background: transparent;
 }
 
@@ -11,31 +11,31 @@
 
 /* 首页文章卡片 */
 #recent-posts > .recent-post-item{
-  background:rgba(255, 255, 255, 0.7);
+  background:rgba(255, 255, 255);
 }
 /* 首页侧栏卡片 */
 .card-widget{
-background:rgba(255, 255, 255, 0.7)!important;
+background:rgba(255, 255, 255)!important;
 }
 /* 文章页面正文背景 */
 div#post{
-background: rgba(255, 255, 255, 0.7);
+background: rgba(255, 255, 255);
 }
 /* 分页页面 */
 div#page{
-background: rgba(255, 255, 255, 0.7);
+background: rgba(255, 255, 255);
 }
 /* 归档页面 */
 div#archive{
-background: rgba(255, 255, 255, 0.7);
+background: rgba(255, 255, 255);
 }
 /* 标签页面 */
 div#tag{
-background: rgba(255, 255, 255, 0.7);
+background: rgba(255, 255, 255);
 }
 /* 分类页面 */
 div#category{
-background: rgba(255, 255, 255, 0.7);
+background: rgba(255, 255, 255);
 }
 
 #footer{
@@ -112,11 +112,11 @@ background-color: transparent!important;
 
   /* 鼠标样式 */
 body {
-  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/Project6.cur),
+  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/Arrow.cur),
     default;
 }
 a,
 img {
-  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/Project7.cur),
+  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/Hand.cur),
     default;
 }
