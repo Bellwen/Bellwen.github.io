@@ -112,11 +112,21 @@ background-color: transparent!important;
 
   /* 鼠标样式 */
 body {
-  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/Arrow.cur),
+  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/project2.cur),
     default;
 }
 a,
 img {
-  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/Hand.cur),
+  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/project3.cur),
     default;
+}
+/* 选择链接标签时的鼠标指针 */
+a:hover{
+  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/project5.cur),
+  auto;
+}
+/* 选中输入框时的鼠标指针 */
+input:hover{
+  cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/project4.cur),
+  auto;
 }
