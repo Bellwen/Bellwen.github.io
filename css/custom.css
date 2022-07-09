@@ -1,22 +1,22 @@
 @font-face{
-    font-family:'Qingfeng' ;  /* 字体名自定义即可 网站标题字体*/
-    src:url('/fonts/Qingfeng.ttf'); /* 字体文件路径 */
-    font-display : swap;
-  }
+  font-family:'Qingfeng' ;  /* 字体名自定义即可 网站标题字体*/
+  src:url('/fonts/Qingfeng.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
   
-  @font-face{
-    font-family:'JetBrainsMono' ;  /* 字体名自定义即可 代码字体*/
-    src:url('/fonts/JetBrainsMono.ttf'); /* 字体文件路径 */
-    font-display : swap;
-  }
+@font-face{
+  font-family:'JetBrainsMono' ;  /* 字体名自定义即可 代码字体*/
+  src:url('/fonts/JetBrainsMono.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
   
-  @font-face{
-    font-family:'Candy' ;  /* 字体名自定义即可 文字字体*/
-    src:url('/fonts/Candy.ttf'); /* 字体文件路径 */
-    font-display : swap;
-  }
-  
-  h1#site-title {
-    font-family: 'Qingfeng', 'JetBrainsMono', 'Candy';
+@font-face{
+  font-family:'Candy' ;  /* 字体名自定义即可 */
+  src:url('/fonts/Candy.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
+
+h1#site-title {
+    font-family: 'Qingfeng', sans-serif;
   }
   
