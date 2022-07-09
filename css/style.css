@@ -3,7 +3,6 @@
 }
 
 
-
 /* 文章页背景 */
 .layout>div:first-child:not(.recent-posts) {
   /* 以下代表白色透明度为0.3 */
@@ -130,4 +129,16 @@ a:hover{
 input:hover{
   cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/project4.cur),
   auto;
+}
+
+
+
+@font-face{
+  font-family:'Candy' ;  /* 字体名自定义即可 */
+  src:url('/fonts/Candy.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
+
+h1#site-title {
+    font-family: 'Candy', sans-serif;
 }
