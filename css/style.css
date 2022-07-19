@@ -138,11 +138,6 @@ input:hover{
   src:url('/fonts/Candy.ttf'); /* 字体文件路径 */
   font-display : swap;
 }
-@font-face{
-  font-family:'Qingfeng' ;  /* 字体名自定义即可 网站标题字体*/
-  src:url('/fonts/Qingfeng.ttf'); /* 字体文件路径 */
-  font-display : swap;
-}
   
 @font-face{
   font-family:'JetBrainsMono' ;  /* 字体名自定义即可 代码字体*/
