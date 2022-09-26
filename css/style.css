@@ -144,27 +144,6 @@ input:hover {
 
 
 
-@font-face {
-  font-family: 'Candy';
-  /* 字体名自定义即可 */
-  src: url('/fonts/Candy.ttf');
-  /* 字体文件路径 */
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'JetBrainsMono';
-  /* 字体名自定义即可 代码字体*/
-  src: url('/fonts/JetBrainsMono.ttf');
-  /* 字体文件路径 */
-  font-display: swap;
-}
-
-h1#site-title {
-  font-family: 'Candy', sans-serif;
-}
-
-
 
 /*星空背景*/
 #universe {
@@ -220,28 +199,8 @@ h1#site-title {
   background: 0 0 !important
 }
 
-/*星空背景*/
-#universe{
-  display: block;
-  position: fixed;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: -1;
-}
 
-[data-theme="dark"]
-  #web_bg {
-    /* 背景图像的地址（url括号里）  */
-    background: url(https://www.toopic.cn/public/uploads/small/1638860379965163886037984.jpg);
-    /* 背景图像不重复 */
-    background-repeat: no-repeat;
-    /* 背景图像大小 */
-    background-size: cover;
-}
+
+
+
+
