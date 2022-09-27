@@ -6,9 +6,49 @@
 /* 文章页背景 */
 .layout>div:first-child:not(.recent-posts) {
   /* 以下代表白色透明度为0.3 */
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.3);
+}
+/*黑色透明*/
+[data-theme="dark"] 
+#recent-posts>.recent-post-item {
+  background: rgba(0, 0, 0, 0.3);
 }
 
+/* 首页侧栏卡片 */
+[data-theme="dark"] 
+.card-widget {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 文章页面正文背景 */
+[data-theme="dark"] 
+div#post {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* 分页页面 */
+[data-theme="dark"] 
+div#page {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* 归档页面 */
+[data-theme="dark"] 
+div#archive {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* 标签页面 */
+[data-theme="dark"] 
+div#tag {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* 分类页面 */
+[data-theme="dark"] 
+div#category {
+  background: rgba(0, 0, 0, 0.3);
+}
 /* 首页文章卡片 */
 #recent-posts>.recent-post-item {
   background: rgba(255, 255, 255, 0.7);
@@ -161,7 +201,8 @@ input:hover {
   z-index: -1;
 }
 
-[data-theme="dark"] #web_bg {
+[data-theme="dark"] 
+  #web_bg {
   /* 背景图像的地址（url括号里）  */
   background: url(https://www.toopic.cn/public/uploads/small/1638860379965163886037984.jpg);
   /* 背景图像不重复 */
