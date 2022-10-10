@@ -248,3 +248,7 @@ svg.icon {
   overflow: hidden;
 }
 
+/* 修正魔改的卡片栏突出字体的问题！！！*/
+.article-content-text {
+  width: 230px;
+}
