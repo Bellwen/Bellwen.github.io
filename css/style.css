@@ -9,6 +9,32 @@
   font-weight: lighter;
 }
 
+/* 导航栏居中 */
+#nav .menus_items {
+  /* display: inline; 这个带不带都可以，本来就是inline */
+  position: absolute;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2px;
+  font-size: 26px;
+}
+
+#nav .menus_items .menus_item:hover .menus_item_child{
+  display: flex;
+}
+
+/* 这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+  left: -103px;
+}
+
+/* 标题字体大小 */
+#nav #site-name {
+  font-size: 24px;
+}
+
+
 /* 颜色 */
 :root {
   --anzhiyu-theme-op: #4259ef23;
@@ -373,6 +399,7 @@ svg.icon {
   top: 0;
 }
 
+/* 评论提示 */
 /* 设置文字内容 :nth-child(1)的作用是选择第几个 */
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before {
   content: '输入QQ号会自动获取昵称和头像🐧';
@@ -427,7 +454,7 @@ svg.icon {
   transform: translate(-50%, -48px);
 }
 
-
+/* 最近文章 */
 #aside-content .aside-list > .aside-list-item .content > time {
   display: none;
 }
