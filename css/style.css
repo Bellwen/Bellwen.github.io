@@ -34,6 +34,23 @@
   font-size: 24px;
 }
 
+/* 导航栏右边 */
+#menus {
+  font-size: 24px;
+  margin-top: -1px;
+}
+
+.fa-fw {
+  font-size: 23px;
+  /* padding-right: 15px; */
+}
+#search-button .site-page {
+  margin-left: 20px;
+}
+
+#menus > #search-button {
+  padding: 10px;
+}
 
 /* 颜色 */
 :root {
