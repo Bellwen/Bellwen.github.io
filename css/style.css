@@ -725,3 +725,10 @@ li.card-archive-list-item {
       display: none;
   }
 }
+
+
+/* 加载头像动画 */
+.loading-img {
+  background: url(https://blog-1310795447.cos.ap-guangzhou.myqcloud.com/picture/Head1.jpg) no-repeat center center;
+  background-size: cover;
+}
