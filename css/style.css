@@ -305,29 +305,39 @@ div#category {
 
 
 /* 鼠标样式 */
-body {
+/* body {
   cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/project2.cur),
     default;
-}
+} */
 
-a,
+/* a,
 img {
   cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/project3.cur),
     default;
-}
+} */
 
 /* 选择链接标签时的鼠标指针 */
-a:hover {
+/* a:hover {
   cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/project5.cur),
     auto;
-}
+} */
 
 /* 选中输入框时的鼠标指针 */
-input:hover {
+/* input:hover {
   cursor: url(https://cdn.jsdelivr.net/gh/Bellwen/PicGoDemo/img/project4.cur),
     auto;
-}
+} */
 
+body {
+  cursor: url(https://blog-1310795447.cos.ap-guangzhou.myqcloud.com/picture/project2.cur), auto;
+}
+a,
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: url(https://blog-1310795447.cos.ap-guangzhou.myqcloud.com/picture/project31.cur), auto !important;
+}
 
 
 
@@ -398,6 +408,7 @@ svg.icon {
 .article-content-text {
   width: 230px;
 }
+
 
 /*哔哩哔哩视频适配*/
 .aspect-ratio {
