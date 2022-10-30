@@ -158,6 +158,13 @@
 [data-theme="dark"] 
 #recent-posts>.recent-post-item {
   background: rgba(0, 0, 0, 0.3);
+} 
+[data-theme="dark"] div#swiper_container{
+  background: rgba(0, 0, 0, 0.3);
+} 
+
+[data-theme="dark"] .topGroup .top-group-list-item {
+  background: rgba(0, 0, 0, 0.3);
 }
 
 /* 首页侧栏卡片 */
@@ -741,4 +748,15 @@ li.card-archive-list-item {
 #aside-content.aside-content > .sticky_layout > .card-widget.card-clock > .card-glass > .card-background {
   background-color: unset ;
   box-shadow: unset ;
+}
+
+#home_top {
+  margin: 1rem auto 0;
+  padding: 0px 15px;
+  max-width: 1285px;
+  width: 100%;
+}
+
+.layout {
+  max-width: 1300px;
 }
