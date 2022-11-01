@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>// 存数据
+// 存数据
 // name：命名 data：数据
 function saveData(name, data) {
     localStorage.setItem(name, JSON.stringify({ 'time': Date.now(), 'data': data }))
