@@ -293,7 +293,7 @@ ul.menus_item_child {
 
 #nav a {
   border-radius: 8px;
-  color: var(--font-color);
+  color: #fff;
 }
 .page #nav a:hover {
   color: var(--anzhiyu-white) !important;
