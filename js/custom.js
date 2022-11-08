@@ -83,6 +83,7 @@ function createWinbox() {
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://blog-1310795447.cos.ap-guangzhou.myqcloud.com/picture/wallhaven-5gle63.png)" class="imgbox" onclick="changeBg('url(https\://blog-1310795447.cos.ap-guangzhou.myqcloud.com/picture/wallhaven-5gle63.png)')"></a>
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://blog-1310795447.cos.ap-guangzhou.myqcloud.com/picture/wallhaven-exze68.jpg)" class="imgbox" onclick="changeBg('url(https\://blog-1310795447.cos.ap-guangzhou.myqcloud.com/picture/wallhaven-exze68.jpg)')"></a>
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://blog-1310795447.cos.ap-guangzhou.myqcloud.com/picture/wallhaven-zyxz9v.jpg)" class="imgbox" onclick="changeBg('url(https\://blog-1310795447.cos.ap-guangzhou.myqcloud.com/picture/wallhaven-zyxz9v.jpg)')"></a>
+    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://blog-1310795447.cos.ap-guangzhou.myqcloud.com/picture/robot.jpg)" class="imgbox" onclick="changeBg('url(https\://blog-1310795447.cos.ap-guangzhou.myqcloud.com/picture/robot.jpg)')"></a>
     </div>
     
     
