@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Vue学习笔记（一）</title>
+      <link href="/posts/65225/"/>
+      <url>/posts/65225/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-Vue实例的作业范围是什么呢？"><a href="#1-Vue实例的作业范围是什么呢？" class="headerlink" title="1.Vue实例的作业范围是什么呢？"></a>1.Vue实例的作业范围是什么呢？</h3><div class="tip cogs"><ul><li>Vue会管理el选项命中元素及其内部的后代元素</li></ul></div><h3 id="2-el挂载点"><a href="#2-el挂载点" class="headerlink" title="2.el挂载点"></a>2.el挂载点</h3><div class="tip cogs"><ul><li>el是用来设置Vue实例挂载（管理）的元素</li><li>Vue会管理el选项命中的元素及其内部的后代元素</li><li>可以使用其他的选择器，但是建议使用ID选择器</li><li>可以使用其他的双标签，不能使用HTML和Body标签</li></ul></div><h3 id="3-示例"><a href="#3-示例" class="headerlink" title="3.示例"></a>3.示例</h3><p><img src="https://images.bellwen.cn/picture/20221129144742.png" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>SpringBoot实战项目（十一）</title>
       <link href="/posts/31546/"/>
       <url>/posts/31546/</url>
