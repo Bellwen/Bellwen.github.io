@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Unity2D学习笔记（一）</title>
+      <link href="/posts/26505/"/>
+      <url>/posts/26505/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-前言"><a href="#1-前言" class="headerlink" title="1.前言"></a>1.前言</h3><div class="tip cogs"><p>最近在b站上看到游戏开发的相关视频，了解过后便一发不可收拾，虽然这段时间需要筹备其他事情，可能不能一心一意继续学习Unity相关的技术，但还是想把近期所学的知识总结下来，方便以后自己重温（虽然也没学到什么TAT，毕竟是纯小白）</p></div><h3 id="2-使用的素材-2021版本的Unity如何下载并导入社区下载的素材"><a href="#2-使用的素材-2021版本的Unity如何下载并导入社区下载的素材" class="headerlink" title="2.使用的素材 + 2021版本的Unity如何下载并导入社区下载的素材"></a>2.使用的素材 + 2021版本的Unity如何下载并导入社区下载的素材</h3><div class="tip cogs"><p>本人是直接跟随麦扣老师的小狐狸教程进行学习(大佬们都说是入门极好的教程)，素材是在Unity的社区中下载，素材的名称是Sunny Land，里面的小狐狸和像素场景深得我心</p></div><div class="tabs" id="test"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test-1">社区下载</button></li><li class="tab"><button type="button" data-href="#test-2">Unity中导入资源</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test-1"><ol><li>点击window —&gt; Asset Store</li><li>点击图中的蓝色搜索按钮</li><li>跳转到浏览器后登录自己的Unity账号并且在搜索栏中搜索需要的素材</li></ol><p><img src="https://images.bellwen.cn/picture/QQ图片20230312180940.png" alt=""></p><p><img src="https://images.bellwen.cn/picture/QQ图片20230312181204.png" alt=""></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test-2"><ol><li>点击window —&gt; Package Manager</li><li>选择My Assets，便可以看到自己下载的素材</li><li>选中需要的素材，点击右小角的import即可导入</li></ol><p><img src="https://images.bellwen.cn/picture/QQ图片20230312181340.png" alt=""></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h3 id="3-单元unit-放置背景"><a href="#3-单元unit-放置背景" class="headerlink" title="3.单元unit + 放置背景"></a>3.单元unit + 放置背景</h3><div class="tip cogs"><p>点击素材中的背景图片，也就是back图片，我们会看到右边会出现许多选项，首先我们需要理解，在屏幕中的每一个小方格称为一个单元，也就是一个unit，如下图中一个unit设置了100个像素点，这就意味我们看到的画面会非常的小，这里将他改为一个unit设置为16个像素点。</p></div><p><img src="https://images.bellwen.cn/picture/QQ图片20230312182526.png" alt=""></p><div class="tip cogs"><p>完成后我们便可以将下方的back素材拖至左边的工作区完成背景的放置。</p></div><p><img src="https://images.bellwen.cn/picture/QQ图片20230312183037.png" alt=""></p><h3 id="4-创建Tilemap"><a href="#4-创建Tilemap" class="headerlink" title="4.创建Tilemap"></a>4.创建Tilemap</h3><div class="tip cogs"><p>Tilemap中文译名瓦片地图，意思就是将整个画面分割成多个方格，方便搭建游戏场景</p><p>右击左侧工作区间，选择2D Object —&gt; TileMap —&gt; Rectangular</p></div><div class="tabs" id="test"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test-1">添加Tilemap</button></li><li class="tab"><button type="button" data-href="#test-2">添加画板</button></li><li class="tab"><button type="button" data-href="#test-3">切割地图素材</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test-1"><p><img src="https://images.bellwen.cn/picture/QQ图片20230312184152.png" alt=""></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test-2"><p>点击window —&gt; 2D —&gt; Tile Palette</p><p>创建一个文件夹map用于存储</p><p>将画板框拉到左侧工作区</p><p>将地图放入画板中</p><p><img src="https://images.bellwen.cn/picture/QQ图片20230312184914.png" alt=""></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test-3"><p>我们可以发现将地图导入画板后，只在一个单元格子内显示，而我们需要的是一个单元格子显示一个地图散件的素材</p><p>如图操作</p><p><img src="https://images.bellwen.cn/picture/QQ图片20230312185418.png" alt=""></p><p><img src="https://images.bellwen.cn/picture/QQ图片20230312185350.png" alt=""></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h3 id="5-搭建地图"><a href="#5-搭建地图" class="headerlink" title="5.搭建地图"></a>5.搭建地图</h3><div class="tip cogs"><p>来到最有意思的环节，自行发挥想象力搭建即可</p><p>PS：上方对应的小图标是类似一些画笔，橡皮之类的功能按键，多试试自己就明白了hh</p></div><p><img src="https://images.bellwen.cn/picture/QQ图片20230312185547.png" alt=""></p><hr><h3 id="6-施工中"><a href="#6-施工中" class="headerlink" title="6.施工中~~"></a>6.施工中~~</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unity学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Unity2D </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Vue学习笔记（一）</title>
       <link href="/posts/65225/"/>
       <url>/posts/65225/</url>
